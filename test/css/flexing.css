@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+}
+body {
+  margin-top: 20px;
+}
+header {
+  height: 50px;
+  background-color: darkblue;
+  text-align: center;
+  font-size: 2rem;
+  color: beige;
+}
+.columns {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.col-1,
+.col-3 {
+  width: 25%;
+  background-color: aqua;
+  padding: 10px;
+}
+.col-2 {
+  width: 50%;
+  background-color: burlywood;
+  padding-left: 10px;
+}
